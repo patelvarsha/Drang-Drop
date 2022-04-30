@@ -29,6 +29,6 @@ export const Box = function Box({ name }) {
   return (
     <div ref={drag} style={{ ...style, opacity }} data-testid={`box`}>
       {name}
-    </div> 
+    </div>
   )
 }
